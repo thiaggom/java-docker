@@ -5,11 +5,11 @@
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>spring-boot-docker</artifactId>
-	<version>1.0.0-Beta</version>
+	<version>1.0.1-Beta</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-docker</name>
-	<description>Spring Framework Guru Docker Course</description>
+	<name>java-docker</name>
+	<description>Java Project To Test Docker Integration</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -66,8 +66,8 @@
 
 				<configuration>
 
-                    <dockerHost>http://127.0.0.1:2375</dockerHost>
-<!--                     <dockerHost>unix:///var/run/docker.sock</dockerHost> -->
+<!--                     <dockerHost>http://127.0.0.1:2375</dockerHost> -->
+                    <dockerHost>unix:///var/run/docker.sock</dockerHost>
 
                     <verbose>true</verbose>
 					<images>
