@@ -86,6 +86,14 @@
 									<tag>${project.version}</tag>
 								</tags>
 							</build>
+							<run>
+								<ports>
+									<port>8090:8080</port>
+								</ports>
+								<network>
+									<name>tmelo</name>
+								</network>
+							</run>
 						</image>
 					</images>
 				</configuration>
